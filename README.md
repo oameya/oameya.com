@@ -1,0 +1,1 @@
+# oameya.com

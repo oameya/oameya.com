@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div id="content">
+  <div class="section-pane">
+    <section class="section">
+      <article>
+        <hgroup class="article__metadata">
+          <h2 class="article__title">{{ page.title }}</h1>
+          <h3 class="article__pubdate"><time pubdate>{{ page.date | date: '%B %d, %Y' }}</time></h3>
+        </hgroup>
+        <div class="article__content">
+          {{ content }}
+        </div>
+      </article>
+    </section>
+  </div>
+</div>

@@ -1,0 +1,82 @@
+// Navigation
+.nav {
+  margin: 20px 0;
+
+  @media #{$small} {
+    min-height: 40px;
+    text-align: left;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    @media #{$small} {
+      width: 100%;
+      padding: 5px 0;
+      top: 0;
+      left: 0;
+      border-top: solid 1px $thin_color;
+      border-bottom: solid 1px $thin_color;
+      display: inline-block;
+      @include box-sizing(border-box);
+      //@include box-shadow(0 1px 2px rgba(0,0,0,.3));
+
+      &:hover {
+        li {
+          display: block;
+        }
+      }
+    }
+  }
+
+  li {
+    margin: 0 5px 10px 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+
+    @media #{$small} {
+      display: none;
+      margin: 0 0 5px;
+    }
+  }
+
+  a {
+    padding: 3px 12px;
+    text-decoration: none;
+    color: $font_color;
+    line-height: 100%;
+    display: block;
+
+    &:hover {
+      color: $high_color;
+    }
+
+    @media #{$small} {
+      padding: 5px 5px 5px 32px;
+      text-align: left;
+    }
+  }
+
+  .current {
+    @media #{$small} {
+      display: block;
+    }
+
+    a {
+      background: #999;
+      color: #fff;
+      @include border-radius(5px);
+
+      @media #{$small} {
+        background: none;
+        color: $font_color;
+
+        &:hover {
+          color: $high_color;
+        }
+      }
+    }
+  }
+}

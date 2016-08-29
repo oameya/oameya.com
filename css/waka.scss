@@ -1,0 +1,199 @@
+---
+---
+
+@charset "utf-8";
+
+//@import "compass";
+@import "waka/mixins";
+@import "waka/buttons";
+@import "waka/animations";
+@import "waka/digipack";
+
+body {
+  color: $font_color;
+  font-size: 13px;
+  font-family: 'AxisStd-ExtraLight', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+}
+
+p {
+  line-height: 1.62em;
+}
+
+h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: 1.62em;
+
+  @media #{$small} {
+    font-size: 3em;
+  }
+}
+
+h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: 1.62em;
+}
+
+h3 {
+  font-size: 0.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  line-height: 1.333em;
+}
+
+hr {
+  width: 90%;
+  height: 1px;
+  border: none;
+  border-top: 1px solid #4f4146;
+  background: none;
+}
+
+ul.horizontal {
+  /*@include clearfix;*/
+
+  list-style: none;
+
+  li {
+    float: left;
+    margin-left: 10px;
+  }
+
+  li:first-child {
+    margin-left: 0;
+  }
+}
+
+dl {
+  dt {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.62em;
+    margin: 0 auto;
+  }
+
+  dd {
+    font-size: 1.2em;
+    margin: 20px 0 50px 0;
+  }
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.share_buttons {
+  font-size: 2.0em;
+
+  a {
+    border: none !important;
+    text-decoration: none !important;
+    color: $font_color;
+  }
+}
+
+// For retina image
+img {
+  max-width: 100%;
+}
+
+[data-2x] {
+  background-size: cover;
+}
+
+// Logos
+.logo {
+  display: block;
+
+  > * {
+    position: absolute;
+    visibility: hidden;
+  }
+}
+
+.logo[data-logo="waka"] {
+  background: url(/images/waka/logo.png) no-repeat;
+  @media #{$retina} {
+    background-image: url(/images/waka/logo@2x.png);
+    background-size: 16px 136px;
+  }
+  width: 16px;
+  height: 136px;
+}
+
+// Sections
+.section {
+  width: 100%;
+  padding: 4em 2em;
+  box-sizing: border-box;
+
+  @media #{$small} {
+    padding: 2em 10px;
+  }
+}
+
+.header {
+  background-color: #f9f6e9;
+
+  padding: 8em 0;
+
+  .logo {
+    margin: 0 auto;
+  }
+}
+
+.digipack {
+  width: 100%;
+  height: 600px;
+}
+
+.digipack-controller {
+  text-align: center;
+
+  ul {
+    display: inline-block;
+
+    li > a {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: inline-block;
+
+      border: none !important;
+      text-decoration: none !important;
+      background: #a5553c;
+      color: #fff;
+      line-height: 50px;
+    }
+  }
+}
+
+.section-intro {
+  background: url(/images/waka/flower1.png) no-repeat;
+  @media #{$retina} {
+    background-image: url(/images/waka/flower1@2x.png);
+    background-size: 183px 224px;
+  }
+  background-color: #322d2d;
+  background-position: top right;
+
+  text-align: center;
+
+  color: #fff;
+}
+
+.section-tracklist {
+  text-align: center;
+}
+
+.section-distribute {
+  text-align: center;
+}
+
+.section-staff {
+  text-align: center;
+}
