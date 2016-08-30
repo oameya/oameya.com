@@ -4,8 +4,6 @@ description: '大飴屋 Webサイト'
 url: 'https://oameya.com'
 twitter_username: o_ame
 github_username: oame
-future: true
-excerpt_separator: '---'
 google_analytics: 'UA-28919359-6'
 defaults:
   - {scope: {type: posts}, values: {layout: post, permalink: '/blog/:year/:month/:day/:title'}}

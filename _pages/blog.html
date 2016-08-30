@@ -1,0 +1,14 @@
+---
+title: Blog
+permalink: /blog/
+layout: page
+---
+
+<section>
+  {% for post in site.posts %}
+    <article class="article-list__item">
+      <h2 class="article-list__item__title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+      <time class="article-list__item__pubdate" pubdate>{{ post.date | date: '%B %d, %Y' }}</time>
+    </article>
+  {% endfor %}
+</section>
