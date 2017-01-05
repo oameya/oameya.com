@@ -250,3 +250,37 @@ footer {
   width: 960px;
   margin: 20px auto 10px;
 }
+
+.post {
+  font-size: 18px;
+
+  .post__metadata {
+    margin: 15px 0 40px;
+    text-align: center;
+  }
+
+  p {
+    line-height: 1.6em;
+    margin: 20px 0;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 1.3em;
+  }
+
+  h2 {
+    font-size: 25px;
+    line-height: 1.3em;
+  }
+
+  h3 {
+    font-size: 23px;
+    line-height: 1.3em;
+  }
+
+  ul {
+    list-style: disc;
+    margin: 20px 20px;
+  }
+}
