@@ -6,7 +6,12 @@ twitter_username: o_ame
 github_username: oame
 google_analytics: 'UA-28919359-6'
 defaults:
-  - {scope: {type: posts}, values: {layout: post, permalink: '/blog/:year/:month/:day/:title'}}
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: '/blog/:year/:month/:day/:title'
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
@@ -22,8 +27,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - script
-  - spec
-  - vendor
 include:
   - _pages
-  - images
