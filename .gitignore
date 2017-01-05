@@ -2,6 +2,5 @@
 /.bundle
 /build
 .sass-cache
-/bower_components/
 .env
 /_site
