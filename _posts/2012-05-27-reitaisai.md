@@ -1,7 +1,8 @@
 ---
-category: イベント
 title: 例大祭
-date: 2012-05-27
+date: 2012-05-27 00:00:00 Z
+categories:
+- イベント
 ---
 
 例大祭参加します。と-56abで素敵な秘封合同誌「夢十夜 - a waking ten dream」の売り子やります。
