@@ -1,6 +1,6 @@
 ---
 title: コンタクト
-permalink: "/contact"
+permalink: "/contact/"
 layout: page
 ---
 
