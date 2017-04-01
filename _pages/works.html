@@ -7,6 +7,32 @@ layout: default
 <div id="content">
   <div class="section-pane">
     <section class="section clearfix">
+      <h1 id="book">Book</h1>
+      {% for work in site.data.book_works %}
+      <dl class="picture">
+        <dt>
+          <a href="{{ work.url }}" target="_blank">
+            <img alt="{{ work.title }}" src="{{ work.image }}" />
+          </a>
+        </dt>
+        <dd>{{ work.title }}</dd>
+      </dl>
+      {% endfor %}
+    </section>
+    <section class="section clearfix">
+      <h1 id="music">Music</h1>
+      {% for work in site.data.music_works %}
+      <dl class="picture">
+        <dt>
+          <a href="{{ work.url }}" target="_blank">
+            <img alt="{{ work.title }}" src="{{ work.image }}" />
+          </a>
+        </dt>
+        <dd>{{ work.title }}</dd>
+      </dl>
+      {% endfor %}
+    </section>
+    <section class="section clearfix">
       <h1 id="logo_dtp">Design</h1>
       {% for work in site.data.design_works %}
       <dl class="picture">
@@ -22,19 +48,6 @@ layout: default
     <section class="section clearfix">
       <h1 id="web_coding">Web</h1>
       {% for work in site.data.web_works %}
-      <dl class="picture">
-        <dt>
-          <a href="{{ work.url }}" target="_blank">
-            <img alt="{{ work.title }}" src="{{ work.image }}" />
-          </a>
-        </dt>
-        <dd>{{ work.title }}</dd>
-      </dl>
-      {% endfor %}
-    </section>
-    <section class="section clearfix">
-      <h1 id="music">Music</h1>
-      {% for work in site.data.music_works %}
       <dl class="picture">
         <dt>
           <a href="{{ work.url }}" target="_blank">
