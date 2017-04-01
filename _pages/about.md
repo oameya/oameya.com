@@ -1,19 +1,22 @@
 ---
 title: About
-permalink: "/about/"
+permalink: "/about"
 layout: page
 ---
 
 # プロフィール
 
-- おおあめ / o_ame
-- デザイン/音楽/バイオリン/神社/Ruby
+## おおあめ
 
 普段は生きてます。
 
+## 活動内容
+
+東方アレンジを作ったりしています。詳しくは<a href="/works">活動記録</a>をご覧ください。
+
 ## 依頼
 
-oame[at]oameya.com までお問い合わせください。
+Web・グラフィックデザインなどでお困りの際は、お気軽に<a href="/contact">お問い合わせ</a>ください。
 
 ## リンク
 
@@ -25,4 +28,4 @@ oame[at]oameya.com までお問い合わせください。
 
 ##  Special thanks
 
-[culotteさん](http://mc24.nobody.jp/)：大飴屋ロゴのデザイナーさん
+[culotteさん](http://mc24.nobody.jp/)：大飴屋ロゴを作られたお方

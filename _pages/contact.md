@@ -1,7 +1,7 @@
 ---
 title: コンタクト
-permalink: "/contact/"
+permalink: "/contact"
 layout: page
 ---
 
-お問い合わせは __oame@oameya.com__ にお願いします。
+お問い合わせは __oame@oameya.com__ までお願いします。
