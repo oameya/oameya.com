@@ -1,6 +1,6 @@
 ---
 title: リンク
-permalink: "/links"
+permalink: "/links/"
 layout: page
 ---
 
