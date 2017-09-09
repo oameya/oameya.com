@@ -33,7 +33,7 @@ date: 2017-09-07 12:45:00 +09:00
 
 ### 委託頒布
 
-当日はスペースにて[NOZARA SHEEP](http://nozarasheep.tumblr.com)さんの作品を委託頒布いたします。是非お手に取ってみてください。
+当日はスペースにて[NOZARA SHEEP](http://nozarasheep.tumblr.com)さんの作品を委託頒布いたします。是非お手に取ってみてください！
 
 - [瞳の中の量子](http://nozarasheep.tumblr.com/post/158742152668/%E5%A2%83%E7%95%8C%E3%81%8B%E3%82%89%E8%A6%96%E3%81%88%E3%81%9F%E5%A4%96%E7%95%8C-%E8%87%B3-%E5%8F%82%E5%8A%A0%E6%83%85%E5%A0%B1) ¥700
 - [Stella Nova](http://ns-stellanova.tumblr.com) ¥800
