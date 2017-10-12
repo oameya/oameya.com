@@ -21,7 +21,7 @@ url: https://oameya.com
 twitter_username: o_ame
 github_username: oame
 google_analytics: UA-28919359-6
-gems:
+plugins:
 - jekyll-redirect-from
 - jekyll-sitemap
 - jekyll-seo-tag
@@ -36,5 +36,6 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - script
+- vendor
 include:
 - _pages
