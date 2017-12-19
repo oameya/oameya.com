@@ -27,8 +27,6 @@ plugins:
 - jekyll-seo-tag
 - jekyll-feed
 - jemoji
-sass:
-  style: compressed
 exclude:
 - README.md
 - LICENSE
@@ -37,5 +35,9 @@ exclude:
 - Gemfile.lock
 - script
 - vendor
+- docker-compose.yml
+- Dockerfile
 include:
 - _pages
+sass:
+  sass_dir: _sass
